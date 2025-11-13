@@ -1,0 +1,9 @@
+{
+  "pricePerKwh": 0.45,
+  "worstCaseSolarPowerTimeInHour": 8,
+  "powerConsumptionInWatts": 150,
+  "ForMiningAllDay":
+  {
+  "income": 2
+  }
+}
