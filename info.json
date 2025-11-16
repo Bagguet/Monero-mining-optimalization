@@ -1,9 +1,12 @@
 {
   "pricePerKwh": 0.45,
-  "worstCaseSolarPowerTimeInHour": 8,
+  "worstCaseSolar": 7,
+  "avgCaseSolar": 12,
   "powerConsumptionInWatts": 150,
-  "ForMiningAllDay":
+  "hoursInDay": 24,
+  "hashrate": 17300,
+  "24hours":
   {
-  "income": 2
+    "moneroAmount": 0.0012
   }
 }
