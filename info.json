@@ -1,12 +1,22 @@
 {
-  "pricePerKwh": 0.45,
-  "worstCaseSolar": 7,
-  "avgCaseSolar": 12,
-  "powerConsumptionInWatts": 150,
-  "hoursInDay": 24,
-  "hashrate": 17300,
-  "24hours":
-  {
-    "moneroAmount": 0.0012
-  }
+    "solar": {
+        "minCase": 7,
+        "avgCase": 12,
+        "maxCase": 17
+    },
+    "wattsOnWall": 320,
+    "hoursInDay": 24,
+    "mined": {
+        "monero": 0.0012,
+        "raven": 24,
+        "tari": 10
+    },
+    "prices": {
+        "kwh": 0.45,
+        "optimal": {
+            "monero": 1500,
+            "raven": 0.04,
+            "tari": 0.015
+        }
+    }
 }
